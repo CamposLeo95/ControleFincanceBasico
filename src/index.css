@@ -10,3 +10,18 @@
 body{
     background: rgb(140, 66, 224);
 }
+
+.btn{
+    background: rgb(140, 66, 224);
+    color: #fff !important;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+.btn:hover{
+    background: rgb(116, 55, 185);
+}

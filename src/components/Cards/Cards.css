@@ -20,7 +20,7 @@
 }
 
 .card span{
-    font-size: 20pt;
+    font-size: 1.5em;
     margin-top: 30px;
     font-weight: bold;
 }
@@ -30,15 +30,14 @@
 }
 
 .box_cards .card:nth-child(1){
-    color: red;
-    background: rgb(241, 181, 181);
+    color:  rgb(116, 55, 185);
+
 }
 .box_cards .card:nth-child(2){
-    color: green;
-    background: rgb(202, 250, 202);
+    color:  rgb(116, 55, 185);
+
 }
 .box_cards .card:nth-child(3){
-    z-index: 2;
-    color: blue;
-    background: rgb(220, 220, 241);
+    color:  rgb(116, 55, 185);
+
 }

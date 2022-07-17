@@ -1,20 +1,20 @@
 import './Cards.css'
 
-const Cards = () => {
+const Cards = ({pendente, recebido, total}) => {
   return (
     <div className="container">
         <div className="box_cards">
             <div className="card">
                 <h1>Pendente</h1>
-                <span>$0,00</span>
+                <span>R$ {pendente}</span>
             </div>
             <div className="card">
                 <h1>Recebido</h1>
-                <span>$0,00</span>
+                <span>R$ {recebido}</span>
             </div>
             <div className="card">
                 <h1>Total</h1>
-                <span>$0,00</span>
+                <span>R$ {total}</span>
             </div>
         </div>
     </div>

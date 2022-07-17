@@ -1,0 +1,46 @@
+.list_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.list_lista{
+    background: rgb(212, 212, 212);
+    width: 40%;
+    min-height: 350px;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 1px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.list_card{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+
+.list_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(212, 212, 212);
+    padding: 10px;
+    width: 25%;
+    border-radius: 1px;
+    box-shadow: 2px 2px 6px black;
+}
+
+.list_form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    font-size: 12pt;
+    color: rgb(97, 46, 155);
+}
+

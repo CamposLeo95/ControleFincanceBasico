@@ -1,5 +1,5 @@
 import './Header.css'
-import Trufa from '../../assets/trufa.png'
+
 
 const Header = ()=>{
 
@@ -7,8 +7,7 @@ const Header = ()=>{
         <>
         <div className="container">
             <div className="header">
-                <h1>Maria trufas</h1>
-                <img src={Trufa} alt="Trufa"/>
+                <h1>Controle de vendas</h1>
             </div>  
         </div>
         </>
