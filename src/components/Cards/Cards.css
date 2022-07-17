@@ -1,0 +1,44 @@
+.box_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 25%;
+    height: 150px;
+    background: #d6d2d2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 8px ;
+    margin-top: -40px;
+    box-shadow:-1px 1px 10px black;
+}
+
+.card span{
+    font-size: 20pt;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.card:hover{
+    margin-top: -50px;
+}
+
+.box_cards .card:nth-child(1){
+    color: red;
+    background: rgb(241, 181, 181);
+}
+.box_cards .card:nth-child(2){
+    color: green;
+    background: rgb(202, 250, 202);
+}
+.box_cards .card:nth-child(3){
+    z-index: 2;
+    color: blue;
+    background: rgb(220, 220, 241);
+}
